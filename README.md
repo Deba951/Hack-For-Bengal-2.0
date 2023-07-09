@@ -18,7 +18,24 @@
 ## Getting Started
 For setting up your project locally, follow these simple steps.
 
- 
+
+### Prerequisites
+You must have Flutter installed  in your system.
+If you dont,  head to the below link. This will guide you to download the software for all the environments and hpw to install and setup it properly.
+    ```sh
+    https://docs.flutter.dev/get-started/install
+    ``
+
+Pro Tip: Run flutter doctor in your terminal to check the flutter status in your machine: 
+    ```sh
+    flutter doctor
+    ```
+    AND
+    ```sh
+    https://docs.flutter.dev/reference/flutter-cli?gclid=EAIaIQobChMIqsL59JGBgAMVWnsrCh2yZQmrEAAYASAAEgLYuvD_BwE&gclsrc=aw.ds
+    ```
+    will guide you with other Flutter Command Line Tools.
+
 
 
 

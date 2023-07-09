@@ -32,7 +32,8 @@ Pro Tip: Run flutter doctor in your terminal to check the flutter status in your
     
     flutter doctor
     
-AND, https://docs.flutter.dev/reference/flutter-cli?gclid=EAIaIQobChMIqsL59JGBgAMVWnsrCh2yZQmrEAAYASAAEgLYuvD_BwE&gclsrc=aw.ds will guide you with other Flutter Command Line Tools.
+AND, 
+https://docs.flutter.dev/reference/flutter-cli?gclid=EAIaIQobChMIqsL59JGBgAMVWnsrCh2yZQmrEAAYASAAEgLYuvD_BwE&gclsrc=aw.ds, will guide you with other Flutter Command Line Tools.
 
 
 

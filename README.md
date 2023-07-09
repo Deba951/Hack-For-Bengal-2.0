@@ -1,6 +1,6 @@
 # Hack-For-Bengal-2.0
 
-![splash](https://github.com/Deba951/Hack-For-Bengal-2.0/assets/83878346/84020e01-5545-4317-9578-39086a2f4761) | ![login](https://github.com/Deba951/Hack-For-Bengal-2.0/assets/83878346/fc0ac045-2caf-4a02-8d4b-e637f4fe4a1d) 
+![splash](https://github.com/Deba951/Hack-For-Bengal-2.0/assets/83878346/84020e01-5545-4317-9578-39086a2f4761)  ![login](https://github.com/Deba951/Hack-For-Bengal-2.0/assets/83878346/fc0ac045-2caf-4a02-8d4b-e637f4fe4a1d) 
 
 
 ### Built With

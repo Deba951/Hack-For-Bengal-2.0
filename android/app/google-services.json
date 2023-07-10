@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "464640059331",
+    "project_id": "bloodway-adb23",
+    "storage_bucket": "bloodway-adb23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464640059331:android:a4876e3a7eaa2c27b53f76",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464640059331-li95gvn98oojv6ajk3ll11ma8h54q16e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq-p4Fcaqfd9lst-RwcXpJx_PK2FJ5fhA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464640059331-li95gvn98oojv6ajk3ll11ma8h54q16e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

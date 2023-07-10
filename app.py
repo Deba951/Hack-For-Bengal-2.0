@@ -15,16 +15,19 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return "Hello world"
-@app.route('/predict',methods=['POST'])
-def predict():
-    title = request.json['title']
-    return jsonify({title})
 cred = credentials.Certificate(PRIVATE_JSON_KEY_PATH)
 firebase_admin.initialize_app(cred)
 
+@app.route('/get_param', methods=['GET'])
+def get_param():
+    args = request.args
+    user_lat=args.get("user_lat", default="", type=str)
+    user_long=args.get("user_long",default="",type=str)
+    return user_lat,user_long
+
 @app.route('/fxy',methods=['POST'])
-def fxy(x, y):
-  user_lat,user_long=35.264,77.254
+def fxy(x, y,user_lat,user_long):
+  #user_lat,user_long=35.264,77.254
   distance=math.sqrt((x-user_lat)**2+(y-user_long)**2)
   return distance
 
@@ -54,8 +57,8 @@ def get_json():
     df2 = df2.fillna(0)
     #df2.replace(np.nan,0)
     #print(df2)
-    
-    df2['Distance'] = df2.apply(lambda x: fxy(float(x['lat']), float(x['long'])), axis=1)
+    user_lat,user_long=get_param()
+    df2['Distance'] = df2.apply(lambda x: fxy(float(x['lat']), float(x['long']),float(user_lat),float(user_long)), axis=1)
     df2.sort_values('Distance',axis=0,inplace=True,kind='quicksort')
     #print(df2['Distance'])
     df2=pd.DataFrame(df2,columns=['id'])
@@ -68,4 +71,5 @@ def get_json():
     #df=df2.to_dict()
     return jsonify(df)
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')
+

@@ -64,9 +64,9 @@ During the process of building the Blood Way application to address the challeng
 ## Further Plans
 1. We can also develop new ways to encourage people to donate, such as gamification, usage of WEB3 environment and social media campaigns.
 2. One exciting opportunity is the use of artificial intelligence to predict blood shortages and ensure that blood banks have enough supply to meet demand. This could revolutionize the way we approach blood donation and save countless lives.
-3. We ae planning to add Payment Gateways into our platform to increase the valuation of our app.
-4. We ar planning to add some Giveaways for the doners which will increase the interest of more and more pople to donate blood.
-5. We also are planing to collaborate with sme or all major Hospitals and Nursing Homes for better reach.
+3. We are planning to add Payment Gateways into our platform to increase the valuation of our app.
+4. We are planning to add some Giveaways for the doners which will increase the interest of more and more people to donate blood.
+5. We also are planning to collaborate with some or all major Hospitals and Nursing Homes for better reach.
 
 
 
